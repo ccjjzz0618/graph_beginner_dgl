@@ -1,0 +1,8 @@
+# Windows/Python 3.11 combination validated for this project.
+--extra-index-url https://download.pytorch.org/whl/cu121
+--find-links https://data.dgl.ai/wheels/cu121/repo.html
+
+torch==2.1.2+cu121
+dgl==2.2.1+cu121
+-r requirements-common.txt
+

@@ -1,0 +1,9 @@
+# Portable CPU environment. For the RTX GPU on Windows, install
+# requirements-gpu-cu121.txt instead.
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://data.dgl.ai/wheels/repo.html
+
+torch==2.1.2+cpu
+dgl==2.2.1
+-r requirements-common.txt
+
