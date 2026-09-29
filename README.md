@@ -114,4 +114,3 @@ graph_beginner_dgl/
 .\.venv\Scripts\python.exe .\scripts\generate_report.py
 ```
 
-不要手工复制终端数字；自动报告直接读取 JSON，可避免模型、数据集或训练模式错配。
